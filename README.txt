@@ -1,9 +1,10 @@
+This API is build using FastAPI+MarkItDown from Microsoft (https://github.com/microsoft/markitdown) and is designed to serve files as Markdown. 
 
-Para correr:
+To run:
 
-1) garantir que o docker está a funcionar e tem o WSL2 (prompt> wsl --status)
+1) Ensure Docker is running and WSL2 is enabled (prompt> wsl --status)
 2) docker build -t api-markitdown .
 3) docker run -p 8000:8000 api-markitdown
 
-A API estará disponível em http://localhost:8000/docs
+The API will be available at http://localhost:8000/docs
 
