@@ -4,7 +4,7 @@ To run:
 
 1) Ensure Docker is running and WSL2 is enabled (prompt> wsl --status)
 2) docker build -t api-markitdown .
-3) docker run -p 8000:8000 api-markitdown
+3) docker run -p 80:80 api-markitdown
 
-The API will be available at http://localhost:8000/docs
+The API will be available at http://localhost:80/docs
 
